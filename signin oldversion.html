@@ -1,0 +1,65 @@
+<!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
+<head>
+<title>Sign In</title>
+<link href="style.css" rel="stylesheet" type=text/css / >
+<link rel="icon" href="hb.jpg" type="image" sizes="16x16">
+
+</head>
+<body>
+  <div id="page-content">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <h1 class="font-weight-light mt-4 text-white"><img src="hinoysblog.jpg" align="middle" alt="hinoy's blog" style="width: 150px; height: 45px"/></h1>
+          <p class="lead text-white-50">WELCOME!</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Sign In</h5>
+            <form id="loginform" class="form-signin">
+              <div class="form-label-group">
+                <input type="email" id="linputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputEmail">Email address</label>
+              </div>
+
+              <div class="form-label-group">
+                <input type="password" id="linputPassword" class="form-control" placeholder="Password" required>
+                <label for="inputPassword">Password</label>
+              </div>
+
+              <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Remember password</label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" id="signin" onclick="login()">Sign in</button>
+              <hr class="my-4">
+              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+    		  <button class="btn btn-lg btn-fp btn-block text-uppercase" type="submit"><i class="fab fa-fp-f mr-2"></i> Forgot Password</button>
+			  <button class="btn btn-lg btn-su btn-block text-uppercase" ><i class="fab fa-su-f mr-2"></i><a href=signup.html> Sign Up</a></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  
+    <script src="authsignin.js"></script>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; Hinoy Rahman</small>
+    </div>
+  </footer>
+</body>

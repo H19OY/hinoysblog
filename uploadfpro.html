@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Upload Future Projects</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body background="bgimage.jpg">
+<center>
+<a class="navbar-brand" href="index.html" > <img src="hinoysblog.jpg" alt="hinoy's blog" style="width: 150px; height: 45px"/></a>
+</center>
+  <div class="container">
+    <h1 class="brand"><span></span> </h1>
+
+ 
+      <div class="contact">
+        <center><h3>Upload Your Future Projects Here</h3></center>
+        <div class="alert">Your Post has been Uploaded, Redirecting to Posts...</div>
+        <form id="contactForm">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email" required>
+          </p>
+          <p>
+            <label>Title Of Your Post</label>
+            <input type="text" name="phone" id="phone">
+          </p>
+		  <p class="full">
+            <label>Post</label>
+            <textarea name="message" rows="5" id="message"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+
+
+  <script src="fpromain.js"></script>
+</body>
+</html>

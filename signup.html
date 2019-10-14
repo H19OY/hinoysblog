@@ -1,0 +1,83 @@
+<!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
+<head>
+  <title>Sign UP</title>
+  <link href="signupcss.css" rel="stylesheet" type=text/css / >
+  <link rel="icon" href="hb.jpg" type="image" sizes="16x16">
+  </head>
+  <body>
+    <div id="page-content">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <h1 class="font-weight-light mt-4 text-white"><img src="hinoysblog.jpg" align="middle" alt="hinoy's blog" style="width: 150px; height: 45px"/></h1>
+            <p class="lead text-white-50">WELCOME!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-xl-9 mx-auto">
+          <div class="card card-signin flex-row my-5">
+            <div class="card-img-left d-none d-md-flex">
+               <!-- Background image for card set in CSS! -->
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">Sign Up Now</h5>
+			  <!-- <div class="alert">signed up!</div> -->
+              <form class="form-signin" id="signupform">
+                <div class="form-label-group">
+                  <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
+                  <label for="inputUserame">Username</label>
+                </div>
+  
+                <div class="form-label-group">
+                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                  <label for="inputEmail">Email address</label>
+                </div>
+                
+                <hr>
+  
+                <div class="form-label-group">
+                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                  <label for="inputPassword">Password</label>
+                </div>
+                
+                <div class="form-label-group">
+                  <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
+                  <label for="inputConfirmPassword">Confirm password</label>
+                </div>
+  
+                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
+                <a class="d-block text-center mt-2 small" href="signin.html">Already has an account? <br>Sign In</a>
+                <hr class="my-4">
+                <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign up with Google</button>
+                <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+	
+
+	
+		
+
+		  
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+
+  
+
+
+  <script src="main.js"></script>
+		   <!-- <script src="setcred.js"></script> -->  
+        <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Copyright &copy; Hinoy Rahman</small>
+      </div>
+    </footer>
+  </body>
